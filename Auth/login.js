@@ -5,6 +5,6 @@ const loginForm = document.getElementById('loginForm');
 if (loginForm) {
     loginForm.addEventListener('submit', function(event) {
         event.preventDefault();  // Evita el envío del formulario por POST
-        window.location.href = 'inicio.html';  // Redirige a la página de inicio
+        window.location.href = 'Auth/inicio.html';  // Redirige a la página de inicio
     });
 }

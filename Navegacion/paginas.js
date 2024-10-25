@@ -1,26 +1,26 @@
 const paginas = [
     {
         titulo: "Login",
-        url: "index.html"
+        url: "../index.html"
     },
     {
         titulo: "Registro",
-        url: "registro.html"
+        url: "../Auth/registro.html"
     },
     {
         titulo: "Inicio",
-        url: "inicio.html"
+        url: "../Auth/inicio.html"
     },
     {
         titulo: "Guitarras",
-        url: "guitarras.html"
+        url: "../Categorias/guitarras.html"
     },
     {
         titulo: "Amplificadores",
-        url: "amplificadores.html"
+        url: "../Categorias/amplificadores.html"
     },
     {
         titulo: "Accesorios",
-        url: "accesorios.html"
+        url: "../Categorias/accesorios.html"
     }
 ];

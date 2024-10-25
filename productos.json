@@ -1,0 +1,100 @@
+{
+    "categorias": {
+
+
+      "guitarras": [
+        {
+          "id": 1,
+          "nombre": "Guitarra Acústica",
+          "precio": 500000,
+          "descripcion": "Una guitarra acústica con pastillas, lo que permite amplificarla y obtener una amplia gama de sonidos.",
+          "imagen": "../imagenes/guitarra1.webp"
+        },
+        {
+          "id": 2,
+          "nombre": "Guitarra Les Paul",
+          "precio": 550000,
+          "descripcion": "Una guitarra eléctrica sólida, famosa por su sonido grueso y sustain prolongado.",
+          "imagen": "../imagenes/guitarra2.webp"
+        },
+        {
+          "id": 3,
+          "nombre": "Guitarra Stratocaster",
+          "precio": 450000,
+          "descripcion": "Una guitarra eléctrica de cuerpo sólido, reconocida por su sonido brillante y versátil.",
+          "imagen": "../imagenes/guitarra3.webp"
+        },
+        {
+          "id": 4,
+          "nombre": "Guitarra Flyng V",
+          "precio": 750000,
+          "descripcion": "Una guitarra conocida por su sonido potente y agresivo, y popular entre los amantes del rock y el heavy metal.",
+          "imagen": "../imagenes/guitarra4.webp"
+        }
+      ],
+
+
+      "amplificadores": [
+        {
+          "id": 5,
+          "nombre": "Amplificador Ross",
+          "precio": 300000,
+          "descripcion": "Con 10 watts de potencia y un canal limpio y otro con distorsión.",
+          "imagen": "../imagenes/amplificador1.webp"
+        },
+        {
+          "id": 6,
+          "nombre": "Amplificador Marshall",
+          "precio": 400000,
+          "descripcion": "Para guitarristas que buscan un poco más de potencia, con 25 watts y un sonido más rockero.",
+          "imagen": "../imagenes/amplificador2.webp"
+        },
+        {
+          "id": 7,
+          "nombre": "Amplificador Fender",
+          "precio": 350000,
+          "descripcion": "Reconocidos por su sonido limpio y brillante.",
+          "imagen": "../imagenes/amplificador3.webp"
+        },
+        {
+          "id": 8,
+          "nombre": "Amplificador Boss",
+          "precio": 300000,
+          "descripcion": "Es compacto y ligero, lo que lo hace fácil de transportar y almacenar.",
+          "imagen": "../imagenes/amplificador4.webp"
+        }
+      ],
+
+
+      "accesorios": [
+        {
+          "id": 9,
+          "nombre": "Afinador clip",
+          "precio": 30000,
+          "descripcion": "Capta el sonido que produces con tu instrumento a través de un micrófono o sensor y muestra el resultado.",
+          "imagen": "../imagenes/accesorio1.webp"
+        },
+        {
+          "id": 10,
+          "nombre": "Capotraste",
+          "precio": 10000,
+          "descripcion": "Se coloca en el mástil de un instrumento para acortar la longitud vibrante de las cuerdas.",
+          "imagen": "../imagenes/accesorio2.webp"
+        },
+        {
+          "id": 11,
+          "nombre": "Par de puas",
+          "precio": 3000,
+          "descripcion": "Ofrecen un sonido más brillante y definido.",
+          "imagen": "../imagenes/accesorio3.webp"
+        },
+        {
+          "id": 12,
+          "nombre": "Cuerdas Ernie Ball",
+          "precio": 11000,
+          "descripcion": "Cuerdas con un tacto suave y flexible, lo que facilita la ejecución y proporciona una sensación de comodidad al tocar.",
+          "imagen": "../imagenes/accesorio4.webp"
+        }
+      ]
+    }
+  }
