@@ -6,6 +6,7 @@ document.addEventListener("DOMContentLoaded", function() {
                 <span class="nombre-tienda">Mundo guitarra</span>
             </div>
             <ul>
+                <li><a href="../../Carrito/carrito.html">Carrito</a></li>
                 <li><a href="../../Auth/inicio.html">Home</a></li>
                 <li><button id="logoutButton">Logout</button></li>
             </ul>

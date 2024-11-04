@@ -11,6 +11,7 @@ document.addEventListener("DOMContentLoaded", function() {
                 <li><a href="accesorios.html">Accesorios</a></li>
             </ul>
             <ul>
+                <li><a href="../../Carrito/carrito.html">Carrito</a></li>
                 <li><a href="../../Auth/inicio.html">Home</a></li>
                 <li><button id="logoutButton">Logout</button></li>
             </ul>

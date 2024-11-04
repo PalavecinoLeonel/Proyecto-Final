@@ -83,7 +83,23 @@ function agregarFuncionalidadBotones() {
         addToCartButton.addEventListener('click', () => {
             const productName = producto.querySelector('.titulo-producto').textContent;
             const price = parseFloat(producto.querySelector('.precio-producto').textContent.replace('$', ''));
+
+            // Estructura del producto que se agregará al carrito (el localstorage)
+            const productoCarrito = {
+                nombre: productName,
+                precio: price,
+                cantidad: quantity
+            };
+            agregarProductoAlCarrito(productoCarrito);
+
             alert(`${quantity} x ${productName} agregado(s) al carrito. Precio total: $${(price * quantity).toFixed(2)}`);
         });
     });
+}
+
+// Función para guardar el producto en el localStorage
+function agregarProductoAlCarrito(producto) {
+    let carrito = JSON.parse(localStorage.getItem("carrito")) || [];
+    carrito.push(producto);
+    localStorage.setItem("carrito", JSON.stringify(carrito));
 }
