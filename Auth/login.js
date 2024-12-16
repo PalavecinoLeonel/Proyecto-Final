@@ -1,12 +1,9 @@
-// login.js
-
-// Redirigir al presionar "Entrar" solo si el formulario de login existe
 const loginForm = document.getElementById('loginForm');
 if (loginForm) {
     loginForm.addEventListener('submit', function(event) {
-        event.preventDefault();  // Evita el envío del formulario por POST
+        event.preventDefault();
 
-        // Guarda la información del usuario logueado (el sessionStorage) 
+        // GUARDO LA INFO DEL USUARIO LOGUEADO (el sessionStorage) 
         const email = document.getElementById('email').value;
         const password = document.getElementById('password').value;
         
@@ -15,8 +12,17 @@ if (loginForm) {
             password: password
         };
         sessionStorage.setItem("usuarioLogueado", JSON.stringify(user));
-        //
-
-        window.location.href = 'Auth/inicio.html';  // Redirige a la página de inicio
+        window.location.href = 'Auth/inicio.html';
     });
 }
+
+//REDIRIGE DEL LOGIN A LA PAG REGISTRO
+document.addEventListener("DOMContentLoaded", () => {
+    const registerButton = document.getElementById("registerButton");
+
+    if (registerButton) {
+        registerButton.addEventListener("click", () => {
+            window.location.href = "../Auth/registro.html";
+        });
+    }
+});

@@ -1,15 +1,16 @@
-/* Login */
-body {
-    margin: 0;
-    padding: 0;
+body.pagina-login {
     font-family: Arial, sans-serif;
-    background-image: url('../imagenes/fondo.webp');
+    background-image: url('../imagenes/fondoNaranja2.webp');
+    background-attachment: fixed;
     background-size: cover;
     background-position: center;
-    height: 100vh;
-    display: flex;
+    display:grid;
     justify-content: center;
     align-items: center;
+    height: 100vh;
+}
+main {
+    padding-top: 100px;
 }
 
 .login-container {
@@ -26,6 +27,12 @@ body {
     margin-bottom: 30px;
     font-size: 28px;
     color: #333;
+}
+
+.login-container img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
 }
 
 input[type="text"],

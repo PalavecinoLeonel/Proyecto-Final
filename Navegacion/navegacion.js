@@ -1,17 +1,17 @@
-// Redirigir al presionar "Volver al Inicio" solo si el botón "Volver al Inicio" existe en la página de registro
+// REDIRIGE AL INICIO SOLO SI EL BTN "VOLVER AL INICIO" EXISTE EN LA PAG REGISTRO
 const backToLoginButton = document.getElementById('backToLoginButton');
 if (backToLoginButton) {
     backToLoginButton.addEventListener('click', function() {
-        window.location.href = '../index.html';  // Redirige a la página de login
+        window.location.href = '../index.html';  // REDIRIGE A LA PAG LOGIN
     });
 }
 
 document.addEventListener("DOMContentLoaded", function() {
-    // Redirigir al presionar "Logout" en el navbar
+    // "LOGOUT" DEL NAVBAR
     const logoutButton = document.getElementById('logoutButton');
     if (logoutButton) {
         logoutButton.addEventListener('click', function() {
-            window.location.href = '../index.html';  // Redirige a la página de login
+            window.location.href = '../index.html';
         });
     }
 });

@@ -1,45 +1,37 @@
-/* Inicio */
+body.pagina-inicio {
+    font-family: Arial, sans-serif;
+    background-image: url('../imagenes/fondoNaranja2.webp');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    display:grid;
+    justify-content: center;
+    align-items: center;
+}
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
-    padding: 0;
     background-color: #f4f4f4;
 }
-
-.logo-principal h1 {
-    text-align: center;
-    margin-bottom: 20px;
-    color: white;
-    font-size: 45px;
-}
-.logo-principal img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 10px; /* Opcional: Puedes agregar bordes redondeados si lo deseas */
-}
-.logo-principal {
-    text-align: center;
-    margin-top: 20px; /* Ajusta la distancia superior del logo */
-    margin-bottom: 10px; /* Espacio entre el logo y el título */
-}
-.categorias h2 {
-    text-align: center;
-    margin-bottom: 20px;
-    color: white;
-    font-size: 35px;
-}
 .categorias {
-    padding: 20px;
-    margin-top: 20px;
+    padding: 0px;
+    margin-top: 0px;
 }
 .categoria {
-    background-color: white;
+    background-color: #FFF5E8;
     margin: 10px 0;
     padding: 15px;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     text-align: center;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.categorias h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: white;
+    font-size: 35px;
 }
 .categoria a {
     text-decoration: none;

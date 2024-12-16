@@ -17,7 +17,6 @@ document.addEventListener("DOMContentLoaded", function() {
             </ul>
         </nav>
     `;
-
     // Este es para poner el navbar dentro del <body>
     document.body.insertAdjacentHTML("afterbegin", navbarHTML);
 });

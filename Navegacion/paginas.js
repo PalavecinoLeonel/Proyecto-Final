@@ -22,5 +22,9 @@ const paginas = [
     {
         titulo: "Accesorios",
         url: "../Categorias/accesorios.html"
+    },
+    {
+        titulo: "Detalles",
+        url: "../Detalles/detalles.html"
     }
 ];

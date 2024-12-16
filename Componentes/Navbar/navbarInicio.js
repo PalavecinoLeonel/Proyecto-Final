@@ -1,4 +1,5 @@
 document.addEventListener("DOMContentLoaded", function() {
+    //Le quité los links a guitarra y amplis, accesorios, para evitar redundancia para el usuario 
     const navbarHTML = `
         <nav class="navbar">
             <div class="logo">
@@ -12,8 +13,6 @@ document.addEventListener("DOMContentLoaded", function() {
             </ul>
         </nav>
     `;
-
-    // Este es para poner el navbar dentro del <body>
     document.body.insertAdjacentHTML("afterbegin", navbarHTML);
 
     const logoutButton = document.getElementById('logoutButton');

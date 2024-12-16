@@ -3,9 +3,15 @@
 import './Auth/login.js';
 import './Auth/registro.js';
 import './Navegacion/navegacion.js';
-import './Componentes/tarjetas.js';
+import './Componentes/productos.js';
 
+
+
+/*
+Esta idea la guardé para mostrar productos de toda categoria, 
+como para el home puede ser. Tambien da un resultado más desprolijo quizá.
 fetch('productos.json')
+  //SI RESPONDE O NO EL JSON
   .then(response => {
     if (!response.ok) {
       throw new Error('Error al obtener los datos');
@@ -19,6 +25,7 @@ fetch('productos.json')
     console.error('Hubo un problema con el fetch:', error);
   });
 
+  //TRAE LAS CATEGORIAS
 function mostrarProductos(data) {
   const contenedorGuitarras = document.getElementById('guitarras');
   const contenedorAmplificadores = document.getElementById('amplificadores');
@@ -57,3 +64,4 @@ function mostrarProductos(data) {
     `;
   });
 }
+*/
